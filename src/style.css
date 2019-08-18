@@ -1,0 +1,127 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr;
+  }
+  
+  body{
+  background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .container img{
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  }
+  
+  .container{
+  
+  float: left;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  height: 500px;
+  width: 240px;
+  font-family: 'Pacifico', cursive;
+  align-items: center;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: white;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  
+  }
+  
+  h1,p{
+  text-align: center;
+  color: white;
+  }
+  
+  .bttn {
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 16rem;
+  }
+  
+  .bttnlog{
+  background-color: transparent;
+  height: 3rem;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 0.5rem;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 16rem;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .NewPost{
+  width: 16.5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  }
+  
+  .buttonsNewPost{
+  float: left;
+  background-color: transparent;
+  height: 2rem;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 0.5rem;
+  color: white;
+  
+  }
+  
+  .exit{
+  background-color: transparent;
+  height: 2rem;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 0.5rem;
+  color: white;
+  
+  }
+  
+  .containerFeed{
+  
+  overflow-x: visible;
+  height: 500px;
+  width: 220px;
+  
+  }
+  
+  .bttnlogProvider{
+  background-color: transparent;
+  border: transparent; 
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  
+  
+  }
+  
+  .postCreateDiv{
+  
+  width: 17rem;
+  height: 4rem;
+  border-color: white;
+  border-radius: 0.5rem;
+  border-width: 3px;
+  background-color: pink;
+  
+  }
+  

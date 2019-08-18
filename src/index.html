@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>EducationApp</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="grid">
+
+
+<div class="container" id= first style="">
+<img src="edu.gif" style="width:10rem;height: 10rem;" alt="">
+<h1>EducationApp</h1>
+<form>
+<input type="text" class="bttn" placeholder="Ingresa Correo" id = "email" value= "">
+<br>
+<input class="bttn" placeholder="Ingresa Contraseña" type="password" id= "password" value= "">
+<br>
+<button type="button" class= "bttnlog" id= "register" name="button">Registrar</button>
+<br>
+<button type="button" class= "bttnlog" id= "ingresar" name="button">Ingresar</button>
+<br>
+<p>O ingresa con</p>
+<button type="button" class= "bttnlogProvider" id= "usericon" name="button"><img src="gmal.png" style="width:3rem;height: 3rem;"/></button>
+<button type="button" class="bttnlogProvider" id= "fbicon" name="button"><img src="facebook.png" style="width:2.5rem;height: 2.5rem;"/></button>
+</form>
+</div>
+
+
+<div class="container" id="registerForm">
+<img src="edu.gif" style="width:10rem;height: 10rem;" alt="">
+<h1>EducationApp</h1>
+<form>
+<input type="text" class="bttn" placeholder="Nombre" id = "nombre">
+<br>
+<input type="text" class="bttn" placeholder="Correo Electrónico" id = "mailRegister">
+<br>
+<input type="password" class="bttn" placeholder="Contraseña" id = "passwordRegister">
+<br>
+<input type="password" class="bttn" placeholder="Confirmar Contraseña" id = "passwordConfirm">
+<br>
+<button type="button" class="bttnlog" id="register2" name="button">REGISTRAR</button>
+</form>
+</div>
+
+
+<div class="container" id= "newsfeed">
+<form class = "containerFeed">
+<input type="button" id = "home"  value = "home" >
+
+<h1>EducationApp</h1>
+<h2 id= "nameUser" ></h2>
+<h3>Escribenos un post</h3>
+<textarea class="NewPost" id="posts" ></textarea>
+<button type="button" class="buttonsNewPost" id="post" name="button">Publicar</button>
+<br>
+<br>
+
+<div class="" id= "postCreate"> </div>
+
+
+</form>
+
+</div>
+
+
+<div class="container" id= "allPost" >
+        <input class="exit" type="button" id= "exit" name="" value="Salir">
+ <p>Todos los posts</p>   
+
+</div>
+
+
+</div>
+
+<script defer src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script defer src="./init-firebase.js"></script>
+<script defer src= "./userAuth.js"></script>
+<!--- <script defer src= "./auth.js"></script> <script defer src= "./userAuth.js"></script> --->
+<script type="module" src="app.js"></script>
+<script scr= "main.js"> </script>
+</body>
+</html>
